@@ -99,7 +99,9 @@ pip install -r requirements.txt
 jupyter notebook            # or: jupyter lab
 ```
 
-Open any `.ipynb` and run cells top to bottom. Cells that download many tickers or call external APIs need network access and may take several minutes. Dashboard cells work best with `ipywidgets` installed and enabled in Jupyter.
+Open any `.ipynb` and run cells top to bottom. Section headings and short conclusions in the notebooks are in Spanish; numeric results in this README match the **saved cell outputs** in the repo.
+
+Cells that download many tickers or call external APIs need network access and may take several minutes. Dashboard cells work best with `ipywidgets` installed and enabled in Jupyter.
 
 Optional: `pip install tabulate` for formatted console tables (notebooks fall back to plain pandas output if missing).
 
